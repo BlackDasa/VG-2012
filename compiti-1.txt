@@ -1,0 +1,19 @@
+Esercizi Per tutti
+1-Guardare gli esempi caricati su GIT HUB. 
+2-Sistemare la classe ProvaTesto, in modo tale che, anche se non vengono forniti i necessari parametri, l'esecuzione delle varie istruzioni non generi errori.Aggiungere inoltre un attributo per la gestione
+dell'origine
+3-Creare una classe simile a ProvaTesto, ma per la gestione di uno sprite (gestire anche il rilascio della texture).
+4-Creare una sottoclasse della classe creata al punto 3, che permetta il posizionamento di una texture tramite tastiera
+
+Esercizi per chi ha tempo o semplicemente cerca una sfida in più
+1-Creare una sottoclasse di ProvaTesto che ruoti in automatico la scritta. Aggiungere un attributo per il controllo della velocità di rotazione
+2-Creare una classe Cursore che rappresenti il cursore del mouse tramite una texture. Si lascia libera scelta sui dettagli implementativi
+3-Consentire alla classe Cursore di "ignorare" coordinate fuori dall'area di disegno.
+
+NOTE:
+Il punto 2 può (e deve) essere svolto senza l'utilizzo delle eccezioni (no try-catch quindi)
+Se volete provare a disegnare in modo più avanzato una texture fare riferimento a questo link http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.graphics.spritebatch.draw.aspx
+
+Per nascondere il cursore di default di windows, utilizzare IsMOuseVibile della classe Game. true->cursore visibile, false->cursore nascosto.
+Esempio di utilizzo (Classe Game, metodo Initialize)
+this.IsMOuseVisible=false; //nascondo il cursore di windows.
